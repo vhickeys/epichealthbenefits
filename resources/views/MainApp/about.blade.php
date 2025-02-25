@@ -85,8 +85,8 @@
             <div class="row mt-n1-9">
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-19.png') }}" class="w-65px" alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-calendar-alt fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">980</span>+
                         </h2>
@@ -95,8 +95,8 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-18.png') }}" class="w-65px" alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-handshake fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">90</span>+
                         </h2>
@@ -105,8 +105,8 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-17.png') }}" class="w-65px" alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-user-check fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">42</span>+
                         </h2>

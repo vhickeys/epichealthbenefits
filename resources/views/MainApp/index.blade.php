@@ -5,7 +5,7 @@
 @section('content')
 
     <!-- BANNER
-                        ================================================== -->
+                            ================================================== -->
     <section class="full-screen py-0 top-position">
         <div class="slider-fade owl-carousel owl-theme w-100 h-100">
             <div class="item bg-img cover-background left-overlay-dark" data-overlay-dark="75"
@@ -72,7 +72,7 @@
     </section>
 
     <!-- PROCESS
-                        ================================================== -->
+                            ================================================== -->
     <section class="p-0 process-style2 mt-2-2">
         <div class="container-fluid px-sm-6 px-md-10">
             <div class="row">
@@ -84,7 +84,7 @@
                                     <h2 class="text-white">01</h2>
                                 </div>
                                 <div class="mb-2-9">
-                                    <img src="{{ asset('assets/img/icon/icon-29.png') }}" alt="Epic Health Benefits">
+                                    <i class="fas fa-heartbeat text-white" style="font-size: 150px"></i>
                                 </div>
                                 <div class="process-hover">
                                     <h3 class="mb-1-9 h1 w-md-80 text-white h4">Health Service</h3>
@@ -98,7 +98,7 @@
                                     <h2 class="text-white">02</h2>
                                 </div>
                                 <div class="mb-2-9">
-                                    <img src="{{ asset('assets/img/icon/icon-30.png') }}" alt="Epic Health Benefits">
+                                    <i class="fas fa-handshake text-white" style="font-size: 150px"></i>
                                 </div>
                                 <div class="process-hover">
                                     <h3 class="mb-1-9 h1 w-md-80 w-lg-70 text-white h4">Partnerships</h3>
@@ -117,7 +117,7 @@
                         <div class="process-img process-img-hover">
                             <h2 class="text-white mb-1-9 w-60">Easy Enrollments</h2>
                             <p class="text-white w-60">Easy Enrollment for Individuals & Organizations</p>
-                            <a href="pricing-plans.html" class="text-white text-secondary-hover">Book a Class</a>
+                            <a href="javascript:void(0)" class="text-white text-secondary-hover">Book a Class</a>
                         </div>
                     </div>
                 </div>
@@ -126,7 +126,7 @@
     </section>
 
     <!-- ABOUT US
-                        ================================================== -->
+                            ================================================== -->
     <section class="about-1">
         <div class="container">
             <div>
@@ -165,7 +165,7 @@
     </section>
 
     <!-- OUR SERVICES
-                        ================================================== -->
+                            ================================================== -->
     <section class="bg-light ">
         <div class="container">
             <div class="text-center">
@@ -181,10 +181,6 @@
                                     alt="Epic Health Benefits"></a>
                         </div>
                         <div class="lower-content text-center">
-                            <div class="icon">
-                                <img src="{{ asset('assets/img/icon/icon-31.png') }}" class="w-55px"
-                                    alt="Epic Health Benefits">
-                            </div>
                             <h3><a href="#!">Health Service Management</a></h3>
                             <p>We oversee the coordination and administration of healthcare services, ensuring enrollees
                                 receive the right medical care at the right time.
@@ -200,10 +196,6 @@
                                     alt=""></a>
                         </div>
                         <div class="lower-content text-center">
-                            <div class="icon">
-                                <img src="{{ asset('assets/img/icon/icon-32.png') }}" class="w-55px"
-                                    alt="Epic Health Benefits">
-                            </div>
                             <h3><a href="#!">Health Insurance & Enrolment</a></h3>
                             <p>Our enrolment process connects individuals, families, and organizations to the best
                                 healthcare plans suited to their needs.</p>
@@ -218,10 +210,6 @@
                                     alt=""></a>
                         </div>
                         <div class="lower-content text-center">
-                            <div class="icon">
-                                <img src="{{ asset('assets/img/icon/icon-33.png') }}" class="w-55px"
-                                    alt="Epic Health Benefits">
-                            </div>
                             <h3><a href="#!">Healthcare Provider Partnerships</a></h3>
                             <p>We collaborate with hospitals, clinics, pharmacies, and healthcare professionals to offer
                                 enrollees a vast network of trusted healthcare providers.</p>
@@ -234,15 +222,14 @@
     </section>
 
     <!-- COUNTER
-                        ================================================== -->
+                            ================================================== -->
     <section class="bg-dark position-relative">
         <div class="container">
             <div class="row mt-n1-9">
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-19.png') }}" class="w-65px"
-                                alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-calendar-alt fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">980</span>+
                         </h2>
@@ -251,9 +238,8 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-18.png') }}" class="w-65px"
-                                alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-handshake fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">90</span>+
                         </h2>
@@ -262,9 +248,8 @@
                 </div>
                 <div class="col-sm-6 col-lg-4 mt-1-9">
                     <div class="counter-style-01">
-                        <div class="counter-icon text-secondary">
-                            <img src="{{ asset('assets/img/icon/icon-17.png') }}" class="w-65px"
-                                alt="Epic Health Benefits">
+                        <div class="counter-icon text-primary">
+                            <i class="fas fa-user-check fa-1x"></i>
                         </div>
                         <h2 class="text-secondary display-10 display-md-9 display-xl-8"><span class="countup">42</span>+
                         </h2>
@@ -282,7 +267,7 @@
     </section>
 
     <!-- BLOG
-                        ================================================== -->
+                            ================================================== -->
     <section>
         <div class="container">
             <div class="text-center">
@@ -293,13 +278,14 @@
             <div class="row g-xl-5 mt-n1-9">
                 <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="200ms">
                     <article class="card card-style3 h-100">
-                        <img src="{{ asset('assets/img/blog/blog-01.jpg') }}" alt="Epic Health Benefits">
+                        <img src="{{ asset('assets/img/blog/placeholder.jpg') }}" alt="Epic Health Benefits">
                         <div class="card-body">
                             <ul class="list-style3">
                                 <li>01 Mar, 2024</li>
                                 <li><a href="#!">Comments</a> (<span>08</span>)</li>
                             </ul>
-                            <h4 class="mb-3"><a href="blog-details.html">Five important life lessons yoga taught us.</a>
+                            <h4 class="mb-3"><a href="javascript:void(0)">Five important life lessons health benefits
+                                    taught us.</a>
                             </h4>
                             <p class="card-text">It's undeniably true that a peruser will be occupied by the substance of a
                                 page while checking its design out.</p>
@@ -308,14 +294,14 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="350ms">
                     <article class="card card-style3 h-100">
-                        <img src="{{ asset('assets/img/blog/blog-02.jpg') }}" alt="Epic Health Benefits">
+                        <img src="{{ asset('assets/img/blog/placeholder.jpg') }}" alt="Epic Health Benefits">
                         <div class="card-body">
                             <ul class="list-style3">
                                 <li>18 Feb, 2024</li>
                                 <li><a href="#!">Comments</a> (<span>06</span>)</li>
                             </ul>
-                            <h4 class="mb-3"><a href="blog-details.html">Seven things you most likely didn't know about
-                                    yoga!</a></h4>
+                            <h4 class="mb-3"><a href="javascript:void(0)">Seven things you most likely didn't know about
+                                    health benefits!</a></h4>
                             <p class="card-text">It's undeniably true that a peruser will be occupied by the substance of a
                                 page while checking its design out.</p>
                         </div>
@@ -323,14 +309,14 @@
                 </div>
                 <div class="col-md-6 col-lg-4 mt-1-9 wow fadeInUp" data-wow-delay="500ms">
                     <article class="card card-style3 h-100">
-                        <img src="{{ asset('assets/img/blog/blog-03.jpg') }}" alt="Epic Health Benefits">
+                        <img src="{{ asset('assets/img/blog/placeholder.jpg') }}" alt="Epic Health Benefits">
                         <div class="card-body">
                             <ul class="list-style3">
                                 <li>24 Jan, 2024</li>
                                 <li><a href="#!">Comments</a> (<span>04</span>)</li>
                             </ul>
-                            <h4 class="mb-3"><a href="blog-details.html">The five secrets that you shouldn't know about
-                                    yoga!</a></h4>
+                            <h4 class="mb-3"><a href="javascript:void(0)">The five secrets that you shouldn't know about
+                                    health benefits!</a></h4>
                             <p class="card-text">It's undeniably true that a peruser will be occupied by the substance of a
                                 page while checking its design out.</p>
                         </div>

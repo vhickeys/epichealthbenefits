@@ -4,7 +4,7 @@
         <!-- start top search -->
         <div class="top-search bg-secondary">
             <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
-                <form class="search-form" action="https://yoga.websitelayout.net/search.html" method="GET"
+                <form class="search-form" action="javascript:void(0)" method="GET"
                     accept-charset="utf-8">
                     <div class="input-group">
                         <span class="input-group-addon cursor-pointer">
@@ -26,8 +26,9 @@
                         <nav class="navbar navbar-expand-lg navbar-light p-0">
                             <div class="navbar-header navbar-header-custom">
                                 <!-- start logo -->
-                                <a href="{{ route('homepage') }}" class="navbar-brand"><img id="logo"
-                                        src="img/logos/logo-inner.png" alt="Epic Health Benefits"></a>
+                                {{-- <a href="{{ route('homepage') }}" class="navbar-brand"><img id="logo" src="{{ asset('assets/img/logos/logo-inner.png') }}" alt="Epic Health Benefits"></a> --}}
+                                <a href="index.html" class="navbar-brand"><img id="logo" src="{{ asset('assets/img/logos/logo-inner.png') }}" alt="logo"></a>
+
                                 <!-- end logo -->
                             </div>
 
@@ -41,14 +42,11 @@
                                 <li class="{{ request()->routeIs('about') ? 'current' : '' }}">
                                     <a href="{{ route('about') }}">About Us</a>
                                 </li>
-                                <li>
-                                    <a href="#!">Our Services</a>
+                                <li class="{{ request()->routeIs('services') ? 'current' : '' }}">
+                                    <a href="{{ route('services') }}">Our Services</a>
                                 </li>
-                                <li>
-                                    <a href="#!">Events</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Blog</a>
+                                <li class="{{ request()->routeIs('events') ? 'current' : '' }}">
+                                    <a href="{{ route('events') }}">Events</a>
                                 </li>
                                 <li>
                                     <a href="#!">Membership</a>
@@ -65,11 +63,11 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#!">Events</a>
+                                <li class="{{ request()->routeIs('blog') ? 'current' : '' }}">
+                                    <a href="{{ route('blog') }}">Blog</a>
                                 </li>
-                                <li>
-                                    <a href="#!">Contact</a>
+                                <li class="{{ request()->routeIs('contact') ? 'current' : '' }}">
+                                    <a href="{{ route('contact') }}">Contact</a>
                                 </li>
 
                             </ul>

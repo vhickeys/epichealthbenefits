@@ -6,7 +6,7 @@
                     <div class="pe-xl-3">
                         <div class="mb-1-6 footer-logo">
                             <a href="{{ route('homepage') }}">
-                                <img src="img/logos/footer-light-logo.png" alt="Epic Health Benefits">
+                                <img src="{{ asset('assets/img/logos/logo-inner.png') }}" alt="Epic Health Benefits">
                             </a>
                         </div>
                         <div>

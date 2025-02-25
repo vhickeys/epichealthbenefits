@@ -17,6 +17,11 @@
     <!-- Search -->
     <script src="{{ asset('assets/search/search.js') }}"></script>
 
+    <script>
+        var logoInnerPath = "{{ asset('assets/img/logos/logo-inner.png') }}";
+        var logoPath = "{{ asset('assets/img/logos/logo.png') }}";
+    </script>
+
     <!-- custom scripts -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
 
