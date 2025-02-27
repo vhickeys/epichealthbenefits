@@ -1,3 +1,21 @@
+Before Installing, If you encounter any issues with "Class Laravel\Ui\UiServiceProvider Not Found":
+
+Consider Reinstalling Dependencies
+If your Laravel installation is corrupted or missing file, do these:
+
+1. Manually Delete vendor and composer.lock on Windows
+Delete the vendor folder
+Open File Explorer
+
+2. Run the following command: 
+composer install
+php artisan serve
+
+3. If you have a missing .env file, copy the example.env file and rename to your .env file, generate a new application key with the command below:
+php artisan key:generate
+
+Configure your database and use!
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
